@@ -1,48 +1,30 @@
 :root{
-
-    /* COLORES */
-
     --primary-color: #4f8cff;
     --primary-dark: #2f5fb3;
-
     --analog-color: #f4c95d;
     --analog-soft: #ffe7a6;
-
     --secondary-color: #f8fbff;
-
     --gradient-color: #dbeafe;
-
-    /* TODOS LOS TEXTOS OSCUROS */
-
     --text-color: #1f2937;
     --text-light: #4b5563;
-
     --font-family: 'Segoe UI', sans-serif;
-
-    /* DEGRADADOS */
-
     --gradient-main: linear-gradient(
         135deg,
         #4f8cff,
         #7db3ff
     );
-
     --gradient-card: linear-gradient(
         145deg,
         #ffffff,
         #f3f8ff
     );
-
     --gradient-hover: linear-gradient(
         145deg,
         #ffffff,
         #eaf3ff
     );
 }
-
-
 @media (max-width: 768px){
-
     header{
         flex-direction: column;
         text-align: center;
@@ -72,8 +54,6 @@
         font-size: 26px;
     }
 }
-
-
 @media (max-width: 390px){
     header{
         flex-direction: column;
@@ -110,4 +90,3 @@
         font-size: 20px;
     }
 }
-
